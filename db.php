@@ -2,10 +2,10 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$host = 'DBHOST'; // <<<<<<<<<< replace IP if needed
+$host = 'fefcd0b519dd '; // <<<<<<<<<< replace IP if needed
 $db   = 'dxc';
-$user = 'USER';
-$pass = 'PASSWORD';
+$user = 'user';
+$pass = 'pass';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
