@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$host = '54121d622e1f'; // <<<<<<<<<< replace IP if needed
+$host = '38ed03534174'; // <<<<<<<<<< replace IP if needed
 $db   = 'dxc';
 $user = 'user';
 $pass = 'pass';
