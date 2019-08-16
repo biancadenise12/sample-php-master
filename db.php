@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$host = 'fefcd0b519dd '; // <<<<<<<<<< replace IP if needed
+$host = 'fefcd0b519dd'; // <<<<<<<<<< replace IP if needed
 $db   = 'dxc';
 $user = 'user';
 $pass = 'pass';
