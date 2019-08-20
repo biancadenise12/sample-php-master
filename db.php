@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$host = 'f0286f19019f'; // <<<<<<<<<< replace IP if needed
+$host = 'database-webserver.clotilhxolet.us-east-2.rds.amazonaws.com'; // <<<<<<<<<< replace IP if needed
 $db   = 'dxc';
 $user = 'user';
 $pass = 'pass';
