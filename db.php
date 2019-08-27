@@ -2,8 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$host = 'database-webserver.cktfzuxhnk9x.us-west-2.rds.amazonaws.com';
-//$host = 'mysql';
+$host = 'database-webserver.cmc23fguffkc.us-east-1.rds.amazonaws.com';
 $port = '3306';
 $db   = 'dxc';
 $user = 'admin';
