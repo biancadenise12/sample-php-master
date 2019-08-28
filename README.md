@@ -1,5 +1,4 @@
 # Running a Web Application in AWS EC2 instance
-
 ## Requirements
 - Docker
 - Git
@@ -24,4 +23,10 @@
 ### Go inside mysql container and execute db.sql
 `docker exec -i mysql mysql -uuser -ppass < db.sql`
 ### Install PHP from a docker image and link to mysql container
-docker run -d -p 80:80 --name php --restart always -v /home/ubuntu/sample-php-master:/var/www/html --link mysql:dxc geronimomark/dxcweb:1.0
+`docker run -d -p 80:80 --name php --restart always -v /home/ubuntu/sample-php-master:/var/www/html --link mysql:dxc geronimomark/dxcweb:1.0`
+### Other notes:
+- When you create an Image of this instance and you want to run another instance using the created AMI, add the following to user data if you want to auto start docker
+```
+#!/bin/bash
+sudo service docker start
+```
