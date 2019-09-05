@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 
 //$host = 'database-webserver.cmc23fguffkc.us-east-1.rds.amazonaws.com'; //if using RDS, get the Endpoint; else if using mysql container, get the container name or ID
 //$port = '3306'; //include this line if using RDS
-$host = 'mysql'
+$host = 'mysql';
 $db   = 'dxc';
 $user = 'user';
 $pass = 'pass';
